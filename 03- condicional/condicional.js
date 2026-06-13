@@ -20,5 +20,3 @@ if (compra < 100) {
 } else {
     alert("Se le aplicará un descuento del 15%, el total a pagar es: $" + ((resultado) * 0.85));
 }
-
-// console.log("El total a pagar es: " + resultado);
