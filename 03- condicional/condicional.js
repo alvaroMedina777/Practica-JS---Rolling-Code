@@ -12,7 +12,7 @@ let compra = Number(prompt("Cuantos dolares compró?"));
 let resultado = dolar * compra;
 
 if (compra < 100) {
-    alert("No hay descuento, el total a pagar es: $" + compra);
+    alert("No hay descuento, el total a pagar es: $" + (resultado));
 } else if (compra >= 100 && compra <= 300) {
     alert("Se le aplicará un descuento del 5%, el total a pagar es: $" + ((resultado) * 0.95)); 
 } else if (compra >= 300 && compra <= 500){
