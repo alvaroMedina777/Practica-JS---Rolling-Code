@@ -9,12 +9,13 @@ let nroUno = parseFloat(prompt("Ingres el primer numero decimal"));
 let nroDos = parseFloat(prompt("Ingrese el segundo numero decimal"));
 let nroTres = parseFloat(prompt("Ingrese el tercer numero decimal"));
 
-let promedio = (nroUno + nroDos + nroTres) / 3;
+let promedio;
 
-console.log("Con la suma de los 3 numeros, el promedio es: " + promedio);
+console.log(`La suma de los numeros nos da: ${promedio = (nroUno + nroDos + nroTres) / 3}`)
+// console.log("Con la suma de los 3 numeros, el promedio es: " + promedio);
 
 if (promedio >= 6) {
-    console.log("Con el promedio de " + promedio + ", que es el obtenido, esta aprobado")
+    console.log(`Obtuvo un promedio de ${promedio}, está aprobado. Felicidades!!`)
 } else {
-    console.log("Con el promedio de "+ promedio + ", que es el obtenido, esta desaprobado")
+    console.log(`Obtuvo un promedio de ${promedio}, esta desaprobado. Que lastima!`)
 }
