@@ -14,16 +14,16 @@ let operador = parseInt(prompt("1: Suma, 2: Resta, 3: Multiplicacion, 4: Divisio
 
 if (operador == 1) {
     let resultado = parseFloat(primerNro + segundoNro);
-    console.log("El resultado de la suma es: " + resultado);
+    console.log(`El resultado de la suma es: ${resultado}`);
 } else if (operador == 2) {
     let resultado = parseFloat(primerNro - segundoNro);
-    console.log("El resultado de la resta es: " + resultado)
+    console.log(`El resultado de la resta es: ${resultado}`);
 } else if (operador == 3) {
     let resultado = parseFloat(primerNro * segundoNro);
-    console.log("El resultado de la multiplicacion es: " + resultado)
+    console.log(`El resultado de la multiplicacion es: ${resultado}`)
 } else if (operador == 4) {
     let resultado = parseFloat(primerNro / segundoNro);
-    console.log("El resultado de la division es: " + resultado)
+    console.log(`El resultado de la division es: ${resultado}`);
 } else {
-    console.log("Ingreso de manera incorrecta");
+    console.log("Ingresó de manera incorrecta");
 }
