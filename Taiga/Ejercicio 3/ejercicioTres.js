@@ -10,9 +10,9 @@
 let primerNro = parseFloat(prompt("Ingrese el primer numero decimal"));
 let segundoNro = parseFloat(prompt("Ingrese el segundo numero decimal"));
 
-let operador = parseInt(prompt("1: Suma, 2: Resta, 3: Multiplicacion, 4: Division"));
+let operador = prompt("1: Suma, 2: Resta, 3: Multiplicacion, 4: Division"));
 
-if (operador == 1) {
+if (operador == 1 || operador == "suma") {
     let resultado = parseFloat(primerNro + segundoNro);
     console.log(`El resultado de la suma es: ${resultado}`);
 } else if (operador == 2) {
