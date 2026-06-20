@@ -7,21 +7,21 @@
 // Si la operación no es válida, informa al usuario con un mensaje en la consola.
 
 
-let primerNro = parseFloat(prompt("Ingrese el primer numero decimal"));
-let segundoNro = parseFloat(prompt("Ingrese el segundo numero decimal"));
+let primerNro = Number(prompt("Ingrese el primer numero decimal"));
+let segundoNro = Number(prompt("Ingrese el segundo numero decimal"));
 
-let operador = prompt("1: Suma, 2: Resta, 3: Multiplicacion, 4: Division"));
+let operador = prompt("1: Suma, 2: Resta, 3: Multiplicacion, 4: Division");
 
 if (operador == 1 || operador == "suma") {
     let resultado = parseFloat(primerNro + segundoNro);
     console.log(`El resultado de la suma es: ${resultado}`);
-} else if (operador == 2) {
+} else if (operador == 2 || operador == "resta") {
     let resultado = parseFloat(primerNro - segundoNro);
     console.log(`El resultado de la resta es: ${resultado}`);
-} else if (operador == 3) {
+} else if (operador == 3 || operador == "multiplicacion") {
     let resultado = parseFloat(primerNro * segundoNro);
     console.log(`El resultado de la multiplicacion es: ${resultado}`)
-} else if (operador == 4) {
+} else if (operador == 4 || operador == "division") {
     let resultado = parseFloat(primerNro / segundoNro);
     console.log(`El resultado de la division es: ${resultado}`);
 } else {
