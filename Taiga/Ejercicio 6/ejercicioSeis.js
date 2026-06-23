@@ -4,4 +4,20 @@
 
 let pedido = prompt("Que desea cenar? Tiene 3 opciones: 1) Carne, 2) Pescado 3) Verduras");
 
-switch ()
+switch (pedido) {
+    case "1":
+        alert(" 🥩Elegiste carne, cualquier menu que lleve carne, viene acompañado de un vino tinto a eleccion🍷");
+        break;
+
+    case "2":
+        alert(" 🐟Elegiste pescado, cualquier menu que lleve pescado, viene acompañado con un vino blanco a eleccion🍸");
+        break;
+
+    case "3":
+        alert(" 🥬Elegiste verduras, los menu mas light, vienen acompañados con una botella de agua🫗");
+        break;
+
+    default:
+        alert("No elegió ningun de las 3 opciones. Vuelva a intentarlo😊")
+        break;
+}
