@@ -15,4 +15,19 @@
 // DATOS DE SALIDA
 //     Mostrar la suma total y mensaje de "objetivo alcanzado"
 
+/////////////////////////
 
+let objetivo = 1000;
+let acumulador = 0;
+
+
+while (acumulador <= objetivo) {
+    let monto = Number(prompt("Ingrese el dinero ahorrado que tiene"));
+    acumulador = acumulador + monto;
+    console.log("tiene ahorrado $" + acumulador)
+
+    if (acumulador >= objetivo) {
+        console.log("Alcanzaste el objetivo!!!")
+        break;
+    }
+}
