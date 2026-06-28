@@ -14,5 +14,17 @@
 // - DATOS DE SALIDA
 //     Mostrar promedio de horas diaras
 
-let horasDiarias = Number(prompt("Cuantas horas estudiará hoy?"))
+let acumulador = 0;
 
+for (let i = 1; i <= 7; i++) {
+    let horasDiarias = Number(prompt("Ingrese la cantidad de horas de estudio del dia " + i));
+
+    while (horasDiarias <= 0) {
+        let horasDiarias = Number(prompt("Debe ingresar numeros validos. Intente nuevamente " + i));
+    }
+
+    acumulador += horasDiarias;
+}
+
+let promedio = acumulador / 7;
+console.log("El promedio de horas diarias es " + promedio);
