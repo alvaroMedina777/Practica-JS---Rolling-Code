@@ -5,3 +5,14 @@
 
 // Desafío lógico: Usa un contador que aumente con cada intento fallido y un while que verifique dos condiciones: que el código sea incorrecto y que los intentos sean menores a 3.
 
+// ALGORITMO 
+// - DATOS DE ENTRADA
+//     Ingresar codigo
+// - PROCESO
+//     Comparar el codigo ingresado con el codigo fijo
+// - DATOS DE SALIDA
+//     Mensaje de acceso concedido
+
+const codigo = 8756;
+let intentos = 0;
+
