@@ -12,10 +12,17 @@
 
 // -DATOS DE SALIDA
 
-let acumulador = 0;
+// Triángulo de Asteriscos con altura de 5
 
-for (let i = 0; i = 5; i++) {
-    for (let ast = 0; ast = 0; ast++) {
+let altura = 5;
 
+for (let fila = 1; fila <= altura; fila++) {
+    let linea = "";
+
+    // Bucle interno: imprime tantos asteriscos como el número de la fila
+    for (let col = 1; col <= fila; col++) {
+        linea += "*";
     }
+
+    console.log(linea);
 }
