@@ -13,6 +13,23 @@
 // - DATOS DE SALIDA
 //     Mensaje de acceso concedido
 
-const codigo = 8756;
+const codigoFijo = 8756;
 let intentos = 0;
 
+while (intentos < 3) {
+    
+    let codigo = Number(prompt("Ingrese un codigo"));
+
+    if (codigo === codigoFijo) {
+        console.log("Acceso concedido");
+        break
+
+    } else {
+        console.log("Intenta de nuevo");
+        intentos++;
+    } 
+
+    if (intentos == 3){
+        console.log("No tienes mas intentos")
+    }
+}
