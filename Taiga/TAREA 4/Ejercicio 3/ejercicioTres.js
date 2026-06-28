@@ -10,6 +10,10 @@
 //     Ingresar codigo
 // - PROCESO
 //     Comparar el codigo ingresado con el codigo fijo
+//     Si es correcto, tiene acceso
+//     Si es incorecto, ingresa de nuevo y se disminuye un intentos
+//     Pedir código al usuario.
+//     Si alcanza el limite de intentos y no acierta, no tiene mas intentos    
 // - DATOS DE SALIDA
 //     Mensaje de acceso concedido
 
