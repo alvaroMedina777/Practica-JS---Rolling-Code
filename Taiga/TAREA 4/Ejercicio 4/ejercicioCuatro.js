@@ -14,6 +14,5 @@
 // - DATOS DE SALIDA
 //     Mostrar promedio de horas diaras
 
+let horasDiarias = Number(prompt("Cuantas horas estudiará hoy?"))
 
-
-    
